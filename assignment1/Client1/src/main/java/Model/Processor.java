@@ -53,6 +53,7 @@ public class Processor implements Runnable{
   private boolean doSwipe(SwipeApi swipeApi, SwipeEvent event) {
     int times = 0;
 
+    // try a request five times until it succeed
     while(times < 5) {
       try {
         long start = System.currentTimeMillis();

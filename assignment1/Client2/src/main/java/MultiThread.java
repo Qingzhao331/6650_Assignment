@@ -21,9 +21,9 @@ public class MultiThread {
   private static AtomicInteger successReq;
   private static AtomicInteger failReq;
   private static BlockingQueue<SwipeEvent> events;
-  private static final int numOfThread = 80;
+  private static final int numOfThread = 50;
   private static final int totalReq = 500000;
-  private static final int firstNumWork = 6250;
+  private static final int firstNumWork = 10000;
   private static List<Records> eventsRecords;
   private static String pathName;
   private static Calculator calculator;
